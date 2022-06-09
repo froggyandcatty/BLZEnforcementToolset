@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D8F6275-9B4C-4160-9EAA-8AAA95D4B8C7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLZOnLineConfigDataSetStruct</RootNamespace>
+    <AssemblyName>BLZOnLineConfigDataSetStruct</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>default</LangVersion>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Build\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLZ_EmailAndMapConfigDataSet.cs">
+      <DependentUpon>BLZ_EmailAndMapConfigDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BLZ_EmailAndMapConfigDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BLZ_EmailAndMapConfigDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BLZ_SoftwareConfigDataSet.cs">
+      <DependentUpon>BLZ_SoftwareConfigDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BLZ_SoftwareConfigDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BLZ_SoftwareConfigDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BLZ_EmailAndMapConfigDataSet.xsc">
+      <DependentUpon>BLZ_EmailAndMapConfigDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BLZ_EmailAndMapConfigDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BLZ_EmailAndMapConfigDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BLZ_EmailAndMapConfigDataSet.xss">
+      <DependentUpon>BLZ_EmailAndMapConfigDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BLZ_SoftwareConfigDataSet.xsc">
+      <DependentUpon>BLZ_SoftwareConfigDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BLZ_SoftwareConfigDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BLZ_SoftwareConfigDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BLZ_SoftwareConfigDataSet.xss">
+      <DependentUpon>BLZ_SoftwareConfigDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SC2OnLineConfigDataSetStruct\SC2OnLineConfigDataSetStruct.csproj">
+      <Project>{830a64f3-b046-4405-b367-b41eefd2e2e3}</Project>
+      <Name>SC2OnLineConfigDataSetStruct</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

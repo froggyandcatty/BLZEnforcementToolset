@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"            
+                    xmlns:sys ="clr-namespace:System;assembly=mscorlib">
+
+    <!--#region 通用文本-->
+    <sys:String x:Key="LanguageName">简体中文</sys:String>
+    <sys:String x:Key="WindowTitleText">SC2游戏缓存配置工具</sys:String>
+    <!--#endregion-->
+
+    <!--#region 消息文本-->
+    <sys:String x:Key="MSG_LoadUIConfigFailed_Caption">错误</sys:String>
+    <sys:String x:Key="MSG_LoadUIConfigFailed_Text">加载配置失败：</sys:String>
+    <sys:String x:Key="MSG_ReplayFileNotExist_Caption">错误</sys:String>
+    <sys:String x:Key="MSG_ReplayFileNotExist_Text">录像不存在：</sys:String>
+    <sys:String x:Key="MSG_CacheFileNotExist_Caption">错误</sys:String>
+    <sys:String x:Key="MSG_CacheFileNotExist_Text">对应缓存文件不存在：</sys:String>
+    <sys:String x:Key="MSG_AnalysiReplayFailed_Caption">错误</sys:String>
+    <sys:String x:Key="MSG_AnalysiReplayFailed_Text">录像文件解析异常：</sys:String>
+    <sys:String x:Key="MSG_GenerateFailed_Caption">错误</sys:String>
+    <sys:String x:Key="MSG_GenerateFailed_Text">生成失败：</sys:String>
+    <sys:String x:Key="MSG_GenerateSuccess_Caption">通知</sys:String>
+    <sys:String x:Key="MSG_GenerateSuccess_Text">生成成功！</sys:String>
+    <sys:String x:Key="MSG_ClosingSaveConfig_Caption">确定</sys:String>
+    <sys:String x:Key="MSG_ClosingSaveConfig_Text">是否保存当前的UI的数据？如果没有使用-url参数加载在线配置，则会在下次启动软件时自动加载。</sys:String>
+    <!--#endregion-->
+
+    <!--#region 界面文本-->
+    <sys:String x:Key="UI_GroupBox_ControlPanel_Header">控制面板</sys:String>
+    <sys:String x:Key="UI_GroupBox_DataPanel_Header">数据面板</sys:String>
+    <sys:String x:Key="UI_GroupBox_LogPanel_Header">日志面板</sys:String>
+    <sys:String x:Key="UI_Button_UpdateReplayLib_Content">更新录像库</sys:String>
+    <sys:String x:Key="UI_Button_Generation_Content">生成配置</sys:String>
+    <sys:String x:Key="UI_RegionInfoConfig_RegionNorthAmerica_Header">北美</sys:String>
+    <sys:String x:Key="UI_RegionInfoConfig_RegionEuropeAndRussia_Header">欧洲</sys:String>
+    <sys:String x:Key="UI_RegionInfoConfig_RegionKoreaAndTaiWan_Header">亚洲</sys:String>
+    <sys:String x:Key="UI_RegionInfoConfig_RegionChina_Header">中国</sys:String>
+    <sys:String x:Key="UI_GroupBox_ReplayPath_Header">录像文件路径：</sys:String>
+    <sys:String x:Key="UI_TextBlock_ReplayFile_Text">录像文件：</sys:String>
+    <sys:String x:Key="UI_SelectPatchControl_ReplayPath_Filter">SC2录像|*.SC2Replay</sys:String>
+    <sys:String x:Key="UI_SelectPatchControl_ReplayPath_TitleDescription">选择游戏录像</sys:String>
+    <sys:String x:Key="UI_SelectPatchControl_ReplayPath_ButtonContent">选择</sys:String>
+    <sys:String x:Key="UI_GroupBox_OtherConfig_Header">其他配置：</sys:String>
+    <sys:String x:Key="UI_TextBlock_PlayerHandleOfAuthor_Text">作者的玩家句柄：</sys:String>
+    <sys:String x:Key="UI_TextBlock_GameLink_Text">游戏链接：</sys:String>
+    <sys:String x:Key="UI_TextBlock_GameName_Text">游戏名称：</sys:String>
+    <sys:String x:Key="UI_GroupBox_ChangeLogConfig_Header">更新日志配置：</sys:String>
+    <sys:String x:Key="UI_Button_CleanAllChangeLog_Content">清理日志</sys:String>
+    <sys:String x:Key="UI_ProgressWindow_Title">下载缓存文件</sys:String>
+    <sys:String x:Key="UI_ProgressWindow_DownloadSize">下载:</sys:String>
+    <sys:String x:Key="UI_ProgressWindow_StopButton">停止</sys:String>
+    <!--#endregion-->
+   
+</ResourceDictionary>

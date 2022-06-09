@@ -1,0 +1,89 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"            
+                    xmlns:sys ="clr-namespace:System;assembly=mscorlib">
+
+    <!--#region Common Text-->
+    <sys:String x:Key="LanguageName">English</sys:String>
+    <sys:String x:Key="WindowTitleText">BLZ Enforcement Bank Email Tool</sys:String>
+    <!--#endregion-->
+
+    <!--#region Message-->
+    <sys:String x:Key="MSG_FindSC2FolderFailed_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_FindSC2FolderFailed_Text">Failed to locat SC2 Folder in MyDocuments. Please play BLZ Enforcement once first!</sys:String>
+    <sys:String x:Key="MSG_FindCharactersFailed_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_FindCharactersFailed_Text">Can not find character. Please play BLZ Enforcement once first!</sys:String>
+    <sys:String x:Key="MSG_PrepareEmailAttachment_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_PrepareEmailAttachment_Text">Failed to create E-mail attachment!</sys:String>
+    <sys:String x:Key="MSG_SendMailFailed_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_SendMailFailed_Text">Failed to send E-mail! Error msg is: </sys:String>
+    <sys:String x:Key="MSG_SendMailSuccess_Caption">Complete!</sys:String>
+    <sys:String x:Key="MSG_SendMailSuccess_Text">E-mail is sent!</sys:String>
+    <sys:String x:Key="MSG_FindOutBankFiles_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_FindOutBankFiles_Text">Can not find bank files!</sys:String>
+    <sys:String x:Key="MSG_CopyFileFailed_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_CopyFileFailed_Text">Failed to copy bank files!</sys:String>
+    <sys:String x:Key="MSG_RestoreStart_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_RestoreStart_Text">Do you want to restore your banks? Software is going to overwrite the game bank on this computer.</sys:String>
+    <sys:String x:Key="MSG_RestoreComplete_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_RestoreComplete_Text">Banks restore Complete!</sys:String>
+    <sys:String x:Key="MSG_RestoreCompleteWithFailed_Text">Banks restore Complete but got file errors, please redo the restore once more!</sys:String>
+    <sys:String x:Key="MSG_SyncConfigFailed_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_SyncConfigFailed_Text">Sync online config failed, error message is:</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileStart_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileStart_Text">Do you want to download BLZ Enforcement cache files?</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileSuccess_Caption">Complete!</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileSuccess_Text">BLZ Enforcement cache files  are downloaded.</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileFailed_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileFailed_Text1">Download BLZ Enforcement cache with&#160;</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileFailed_Text2">&#160;files failed, error msg is:</sys:String>
+    <sys:String x:Key="MSG_DownloadVersionFileFailed_Caption">Alart!</sys:String>
+    <sys:String x:Key="MSG_DownloadVersionFileFailed_Text">Online version config error, please download the last version of software at https://github.com/froggyandcatty/BLZEnforcementToolset/releases.</sys:String>
+    <!--#endregion-->
+    <!--#endregion-->
+    
+    <!--#region UI Text-->
+    <sys:String x:Key="UI_BLZButton_StartGame_Content">START</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_Title_Text">BLZ Enforcement Bank Manager Tool</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_Account_Text">Account</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_ArcadeGame_Text">Arcade Game</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_Email_Text">Email</sys:String>
+    <sys:String x:Key="UI_BLZButton_Refresh_Content">Refresh</sys:String>
+    <sys:String x:Key="UI_BLZButton_Restore_Content">Restore</sys:String>
+    <sys:String x:Key="UI_BLZButton_SendMail_Content">Send Mail</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadTitle_Text">Cache Download</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_ChangeLog_Text">Change Log</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_InfoPannelDefault_Text">Wait for synchronization...</sys:String>
+    <sys:String x:Key="UI_BLZButton_Download_Content">Download</sys:String>
+    <sys:String x:Key="UI_RegionName_NorthAmerica">North America</sys:String>
+    <sys:String x:Key="UI_RegionName_EuropeAndRussia">Europe&amp;Russia</sys:String>
+    <sys:String x:Key="UI_RegionName_KoreaAndTaiWan">Korea&amp;TaiWan</sys:String>
+    <sys:String x:Key="UI_RegionName_China">China</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoDefault_Text">Sync Config...</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoDownloadComplete_Text">Download Complete</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoDownloadFailde_Text">Download Failed</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoSyncComplete_Text">Sync Complete</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoSyncFailed_Text">Sync Filed</sys:String>
+    <sys:String x:Key="UI_BLZButton_Yes_Content">Yes</sys:String>
+    <sys:String x:Key="UI_BLZButton_No_Content">No</sys:String>
+    <sys:String x:Key="UI_BLZButton_OK_Content">OK</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Close_Content">Close the software.</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Help_Content">Introduction of this software.</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_PullDown_Content">Show change log of BLZ Enforcement, you can click again to hide it.</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Refresh_Content">Refresh player account.</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Restore_Content">Restore banks to your account, notice, it will overwrite current banks.</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Send_Content">Send BLZ Enforcement banks of account you selected as an Email attachment to your email address.</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Download_Content">Download the game cache files, prominently reduce the download time in the game.</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Start_Content">Use game link to run BattleNet software, you will be located to BLZ Enforcement page once you start the game.</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutCaption_Text">About</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutVersion_Text">Version:</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutAuthor_Text">Author:</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutAuthorValue_Text">Team Froggy &amp; Catty</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutEmail_Text">Email:</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutThank_Text">Thanks:</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutThankTo_Text">REMILIA</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutUpdate_Text">Update:</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutUpdatePage_Text">Github Release Page</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutDonation_Text">Donate us:</sys:String>
+    <!--#endregion-->
+
+</ResourceDictionary>

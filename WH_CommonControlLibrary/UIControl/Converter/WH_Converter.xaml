@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WH_CommonControlLibrary.UIControl.Converter">
+    <local:Converter_CommonNullValueConverter x:Key="CommonNullValueConverterConverter" />
+    <local:Converter_CommonNotValueConverter x:Key="CommonNotValueConverterConverter" />
+    <local:Converter_SelectPathOKToEnable x:Key="SelectPathOKToEnableConverter" />
+</ResourceDictionary>

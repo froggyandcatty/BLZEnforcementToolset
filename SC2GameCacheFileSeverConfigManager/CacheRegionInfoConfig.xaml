@@ -1,0 +1,67 @@
+﻿<TabItem x:Class="BLZEnforcementToolset.CacheRegionInfoConfig"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BLZEnforcementToolset"
+             xmlns:common="clr-namespace:WH_CommonControlLibrary.UIControl.Control;assembly=WH_CommonControlLibrary"
+             xmlns:avalon="http://icsharpcode.net/sharpdevelop/avalonedit"
+             xmlns:data="clr-namespace:SC2OnLineConfigDataSetStruct;assembly=SC2OnLineConfigDataSetStruct"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <TabItem.Resources>
+        <ResourceDictionary x:Name="ResourceDictionary_TabItemLanguage">
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Language\zhCN.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </TabItem.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="{DynamicResource ResourceKey=UI_GroupBox_ReplayPath_Header}" Grid.Row="0" Margin="3">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{DynamicResource ResourceKey=UI_TextBlock_ReplayFile_Text}" Grid.Column="0" VerticalAlignment="Center"/>
+                <common:WH_SelectPathControl Name="SelectPatchControl_ReplayPath" Grid.Column="1" ControlType="LoadFile" Filter="{DynamicResource ResourceKey=UI_SelectPatchControl_ReplayPath_Filter}" TitleDescription="{DynamicResource ResourceKey=UI_SelectPatchControl_ReplayPath_TitleDescription}" ButtonContent="{DynamicResource ResourceKey=UI_SelectPatchControl_ReplayPath_ButtonContent}" ButtonWidth="80" Margin="3" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="{DynamicResource ResourceKey=UI_GroupBox_OtherConfig_Header}" Grid.Row="1" Margin="3">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="150"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="{DynamicResource ResourceKey=UI_TextBlock_GameLink_Text}" Grid.Column="0" VerticalAlignment="Center"/>
+                <TextBox Name="TextBox_SatrtLink" Grid.Column="1" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="3"/>
+                <Button Name="Button_CleanAllChangeLog" Content="{DynamicResource ResourceKey=UI_Button_CleanAllChangeLog_Content}" Grid.Column="2" Margin="3" Click="Button_CleanAllChangeLog_Click" />
+
+                <TabControl Name="TabControl_ChangeLogWithLanguage" Grid.ColumnSpan="3" Grid.Row="1" Margin="3">
+                    <local:CacheChangeLog x:Name="LanguageInfo_zhCN" Header="zhCN" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.zhCN}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_zhTW" Header="zhTW" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.zhTW}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_enUS" Header="enUS" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.enUS}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_deDE" Header="deDE" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.deDE}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_esMX" Header="esMX" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.esMX}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_esES" Header="esES" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.esES}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_frFR" Header="frFR" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.frFR}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_itIT" Header="itIT" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.itIT}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_plPL" Header="plPL" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.plPL}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_ptBR" Header="ptBR" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.ptBR}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_ruRU" Header="ruRU" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.ruRU}"/>
+                    <local:CacheChangeLog x:Name="LanguageInfo_koKR" Header="koKR" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.koKR}"/>
+                </TabControl>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</TabItem>

@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:blz="clr-namespace:BLZEnforcementToolset.BLZControl">
+
+    <!--#region Font-->
+    <Style TargetType="{x:Type TextElement}">
+        <Setter Property="FontFamily" Value="/BLZEnforcementToolset;component/Assets/#EurostileExtMed"/>
+    </Style>
+    <Style TargetType="{x:Type TextBlock}">
+        <Setter Property="FontFamily" Value="/BLZEnforcementToolset;component/Assets/#EurostileExtMed"/>
+    </Style>
+    <Style TargetType="{x:Type TextBox}">
+        <Setter Property="FontFamily" Value="/BLZEnforcementToolset;component/Assets/#EurostileExtMed"/>
+    </Style>
+    <Style TargetType="{x:Type blz:BLZ_TextBlock}">
+        <Setter Property="FontFamily" Value="/BLZEnforcementToolset;component/Assets/#EurostileExtMed"/>
+    </Style>
+    <Style TargetType="{x:Type blz:BLZ_TextBox}">
+        <Setter Property="FontFamily" Value="/BLZEnforcementToolset;component/Assets/#EurostileExtMed"/>
+    </Style>
+    <Style TargetType="{x:Type blz:BLZ_ComboBox}">
+        <Setter Property="FontFamily" Value="/BLZEnforcementToolset;component/Assets/#EurostileExtMed"/>
+    </Style>
+    <!--#endregion-->
+</ResourceDictionary>

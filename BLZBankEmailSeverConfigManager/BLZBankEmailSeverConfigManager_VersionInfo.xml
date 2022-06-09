@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="yes"?>
+<BLZ_SoftwareConfigDataSet xmlns="http://tempuri.org/BLZ_SoftwareConfigDataSet.xsd">
+  <DataTable_VersionInfo>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <MajorVersion>1</MajorVersion>
+    <MinorVersion>1</MinorVersion>
+    <RevisedVersion>35130</RevisedVersion>
+    <BuildVersion>6783</BuildVersion>
+    <DownloadAddress>http://froggyandcatty.com/sc2software/Versions/Download/V1.1.35130.6783.exe</DownloadAddress>
+    <ConfigAddress>http://froggyandcatty.com/sc2software/Versions/Config/V1.1.35130.6783.cfg</ConfigAddress>
+  </DataTable_VersionInfo>
+  <DataTable_VersionInfo>
+    <VersionString>V1.1.24708.6785</VersionString>
+    <MajorVersion>1</MajorVersion>
+    <MinorVersion>1</MinorVersion>
+    <RevisedVersion>24708</RevisedVersion>
+    <BuildVersion>6785</BuildVersion>
+    <DownloadAddress>http://froggyandcatty.com/sc2software/Versions/Download/V1.1.24708.6785.exe</DownloadAddress>
+    <ConfigAddress>http://froggyandcatty.com/sc2software/Versions/Config/V1.1.24708.6785.cfg</ConfigAddress>
+  </DataTable_VersionInfo>
+  <DataTable_LanguageConfig>
+    <LanguageId>2052</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1、支持其他游戏的缓存下载；
+2、UI修改；
+</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>1028</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1、支持其他遊戲的緩存下載；
+2、UI修改；</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>1033</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>1031</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>2058</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>3082</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>1036</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>1040</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>1045</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>1046</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>1049</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+  <DataTable_LanguageConfig>
+    <LanguageId>1042</LanguageId>
+    <VersionString>V1.1.35130.6783</VersionString>
+    <SoftwareChangeLog>1. Support download game cache files for other map;
+2. Change UI;</SoftwareChangeLog>
+  </DataTable_LanguageConfig>
+</BLZ_SoftwareConfigDataSet>

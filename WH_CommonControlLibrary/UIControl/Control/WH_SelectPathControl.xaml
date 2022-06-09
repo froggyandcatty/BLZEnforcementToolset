@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="WH_CommonControlLibrary.UIControl.Control.WH_SelectPathControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WH_CommonControlLibrary.UIControl.Control"
+             mc:Ignorable="d" Name="SelectPathControl">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="TextBox_Path" Grid.Column="0" Margin="3" Text="{Binding ElementName=SelectPathControl,Path=PathText,Mode=TwoWay}" TextChanged="TextBox_Path_TextChanged"/>
+        <Button Name="Button_Select" Grid.Column="1" Margin="3" Click="Button_Select_Click" Content="{Binding ElementName=SelectPathControl,Path=ButtonContent,Mode=TwoWay}" Width="{Binding ElementName=SelectPathControl,Path=ButtonWidth,Mode=TwoWay}"/>
+    </Grid>
+</UserControl>

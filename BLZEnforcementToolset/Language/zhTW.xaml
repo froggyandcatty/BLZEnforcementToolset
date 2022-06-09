@@ -1,0 +1,89 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"            
+                    xmlns:sys ="clr-namespace:System;assembly=mscorlib"
+                    xmlns:blz="clr-namespace:BLZEnforcementToolset.BLZControl">
+
+    <!--#region 通用文本-->
+    <sys:String x:Key="LanguageName">繁體中文</sys:String>
+    <sys:String x:Key="WindowTitleText">暴雪防衛局存檔郵件工具</sys:String>
+    <!--#endregion-->
+
+    <!--#region 消息文本-->
+    <sys:String x:Key="MSG_FindSC2FolderFailed_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_FindSC2FolderFailed_Text">我的文件內查找星際爭霸目錄失敗，請先進行一場BLZ防衛局遊戲！</sys:String>
+    <sys:String x:Key="MSG_FindCharactersFailed_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_FindCharactersFailed_Text">查找玩家角色失敗，請先進行一場BLZ防衛局遊戲！</sys:String>
+    <sys:String x:Key="MSG_PrepareEmailAttachment_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_PrepareEmailAttachment_Text">預處理郵件附件失敗！</sys:String>
+    <sys:String x:Key="MSG_SendMailFailed_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_SendMailFailed_Text">發送郵件失敗！錯誤資訊為：</sys:String>
+    <sys:String x:Key="MSG_SendMailSuccess_Caption">完成！</sys:String>
+    <sys:String x:Key="MSG_SendMailSuccess_Text">發送郵件成功！</sys:String>
+    <sys:String x:Key="MSG_FindOutBankFiles_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_FindOutBankFiles_Text">找不到存檔文件</sys:String>
+    <sys:String x:Key="MSG_CopyFileFailed_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_CopyFileFailed_Text">複製檔失敗</sys:String>
+    <sys:String x:Key="MSG_RestoreStart_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_RestoreStart_Text">確認還原存檔？這將會覆蓋你的存檔！</sys:String>
+    <sys:String x:Key="MSG_RestoreComplete_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_RestoreComplete_Text">恢復完成</sys:String>
+    <sys:String x:Key="MSG_RestoreCompleteWithFailed_Text">恢復完成，但是存在複製錯誤，你可以再次嘗試還原！</sys:String>
+    <sys:String x:Key="MSG_SyncConfigFailed_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_SyncConfigFailed_Text">同步線上配置出錯，錯誤消息為：</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileStart_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileStart_Text">是否下載防衛局快取檔案？</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileSuccess_Caption">Complete!</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileSuccess_Text">防衛局快取檔案下載完成。</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileFailed_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileFailed_Text1">防衛局快取檔案下載結束，有</sys:String>
+    <sys:String x:Key="MSG_DownloadCacheFileFailed_Text2">個檔下載失敗，錯誤日誌為：</sys:String>
+    <sys:String x:Key="MSG_DownloadVersionFileFailed_Caption">警告！</sys:String>
+    <sys:String x:Key="MSG_DownloadVersionFileFailed_Text">在線版本配置文件出錯，請去https://github.com/froggyandcatty/BLZEnforcementToolset/releases下載最新版本的軟件。</sys:String>
+    <!--#endregion-->
+
+    <!--#region 介面文本-->
+    <sys:String x:Key="UI_BLZButton_StartGame_Content">啟動</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_Title_Text">暴雪防衛局存檔管理工具</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_Account_Text">帳戶</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_ArcadeGame_Text">大廳</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_Email_Text">郵箱</sys:String>
+    <sys:String x:Key="UI_BLZButton_Refresh_Content">刷新</sys:String>
+    <sys:String x:Key="UI_BLZButton_Restore_Content">還原</sys:String>
+    <sys:String x:Key="UI_BLZButton_SendMail_Content">發送</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadTitle_Text">緩存下載</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_ChangeLog_Text">更新日誌</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_InfoPannelDefault_Text">等待同步……</sys:String>
+    <sys:String x:Key="UI_BLZButton_Download_Content">下載</sys:String>
+    <sys:String x:Key="UI_RegionName_NorthAmerica">北美</sys:String>
+    <sys:String x:Key="UI_RegionName_EuropeAndRussia">歐洲</sys:String>
+    <sys:String x:Key="UI_RegionName_KoreaAndTaiWan">亞洲</sys:String>
+    <sys:String x:Key="UI_RegionName_China">中國</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoDefault_Text">同步配置……</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoDownloadComplete_Text">下載完成</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoDownloadFailde_Text">下載失敗</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoSyncComplete_Text">同步完成</sys:String>
+    <sys:String x:Key="UI_BLZTextBlock_DownloadInfoSyncFailed_Text">同步失敗</sys:String>
+    <sys:String x:Key="UI_BLZButton_Yes_Content">是</sys:String>
+    <sys:String x:Key="UI_BLZButton_No_Content">否</sys:String>
+    <sys:String x:Key="UI_BLZButton_OK_Content">確定</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Close_Content">關閉軟體。</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Help_Content">顯示軟體資訊。</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_PullDown_Content">顯示《暴雪防衛局》的更新日誌，再次點擊隱藏。</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Refresh_Content">刷新玩家帳戶。</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Restore_Content">還原存檔到你的帳戶，注意，這將會覆蓋你的當前存檔。</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Send_Content">將你選擇的帳戶的《暴雪防衛局》存檔作為郵件附件發送到設置的郵箱地址，可能會延遲一段時間後才收到郵件。</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Download_Content">下載遊戲快取檔案，你可能仍然需要在遊戲中下載一些小檔才能進入房間。</sys:String>
+    <sys:String x:Key="UI_BLZToolTip_Start_Content">使用遊戲連結啟動戰網軟體，然後當你進入《星際爭霸2》時，將會顯示《暴雪防衛局》的地圖詳情。</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutCaption_Text">關於</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutVersion_Text">版本：</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutAuthor_Text">作者：</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutAuthorValue_Text">喵喵呱呱團隊</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutEmail_Text">郵箱：</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutThank_Text">致謝：</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutThankTo_Text">REMILIA</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutUpdate_Text">更新:</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutUpdatePage_Text">Github發佈頁面</sys:String>
+    <sys:String x:Key="UI_BLZWindow_AboutDonation_Text">捐贈：</sys:String>
+    <!--#endregion-->
+
+</ResourceDictionary>

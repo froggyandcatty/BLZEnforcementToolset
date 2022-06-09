@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="BLZEnforcementToolset.BLZControl.BLZ_TextBlock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BLZEnforcementToolset.BLZControl"
+             mc:Ignorable="d" 
+             x:Name="BLZ_TextBlockControl">
+    <Grid>
+        <TextBlock Name="TextBlock_BLZStartHalo" Text="{Binding ElementName=BLZ_TextBlockControl,Path=Text}" VerticalAlignment="{Binding ElementName=BLZ_TextBlockControl,Path=VerticalAlignment}" HorizontalAlignment="{Binding ElementName=BLZ_TextBlockControl,Path=HorizontalAlignment}" FontSize="{Binding ElementName=BLZ_TextBlockControl,Path=FontSize}" Foreground="{Binding ElementName=BLZ_TextBlockControl,Path=HaloForeground}" TextWrapping="{Binding ElementName=BLZ_TextBlockControl,Path=TextWrapping}" FontFamily="{Binding ElementName=BLZ_TextBlockControl,Path=FontFamily}">
+            <TextBlock.Effect>
+                <BlurEffect Radius="{Binding ElementName=BLZ_TextBlockControl,Path=HaloRadius}" KernelType="Gaussian" RenderingBias="Quality"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Name="TextBlock_BLZStart" Text="{Binding ElementName=BLZ_TextBlockControl,Path=Text}" VerticalAlignment="{Binding ElementName=BLZ_TextBlockControl,Path=VerticalAlignment}" HorizontalAlignment="{Binding ElementName=BLZ_TextBlockControl,Path=HorizontalAlignment}" FontSize="{Binding ElementName=BLZ_TextBlockControl,Path=FontSize}" Foreground="{Binding ElementName=BLZ_TextBlockControl,Path=Foreground}" TextWrapping="{Binding ElementName=BLZ_TextBlockControl,Path=TextWrapping}" FontFamily="{Binding ElementName=BLZ_TextBlockControl,Path=FontFamily}"/>
+    </Grid>
+</UserControl>

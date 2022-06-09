@@ -1,0 +1,14 @@
+﻿<Application x:Class="BLZEnforcementToolset.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BLZEnforcementToolset"
+             StartupUri="BLZEnforcementToolset.xaml">
+    <Application.Resources>
+        <ResourceDictionary x:Name="ApplicationResource">
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Assets/Assets.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Themes/Generic.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

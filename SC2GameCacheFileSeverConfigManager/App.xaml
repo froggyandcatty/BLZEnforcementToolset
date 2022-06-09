@@ -1,0 +1,9 @@
+﻿<Application x:Class="BLZEnforcementToolset.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BLZEnforcementToolset"
+             StartupUri="SC2GameCacheSeverConfigManager.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

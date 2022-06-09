@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"            
+                    xmlns:sys ="clr-namespace:System;assembly=mscorlib">
+
+    <!--#region Common Text-->
+    <sys:String x:Key="LanguageName">English</sys:String>
+    <sys:String x:Key="WindowTitleText">SC2 Game Cache Sever Config Manager</sys:String>
+    <!--#endregion-->
+
+    <!--#region Message-->
+    <sys:String x:Key="MSG_LoadUIConfigFailed_Caption">Error</sys:String>
+    <sys:String x:Key="MSG_LoadUIConfigFailed_Text">Load UI config Error: </sys:String>
+    <sys:String x:Key="MSG_ReplayFileNotExist_Caption">Error</sys:String>
+    <sys:String x:Key="MSG_ReplayFileNotExist_Text">Replay miss:</sys:String>
+    <sys:String x:Key="MSG_CacheFileNotExist_Caption">Error</sys:String>
+    <sys:String x:Key="MSG_CacheFileNotExist_Text">The cache file do not exist: </sys:String>
+    <sys:String x:Key="MSG_AnalysiReplayFailed_Caption">Error</sys:String>
+    <sys:String x:Key="MSG_AnalysiReplayFailed_Text">Error in parsing replay file: </sys:String>
+    <sys:String x:Key="MSG_GenerateFailed_Caption">Error</sys:String>
+    <sys:String x:Key="MSG_GenerateFailed_Text">Generate failed: </sys:String>
+    <sys:String x:Key="MSG_GenerateSuccess_Caption">Notice</sys:String>
+    <sys:String x:Key="MSG_GenerateSuccess_Text">Generate successfull!</sys:String>
+    <sys:String x:Key="MSG_ClosingSaveConfig_Caption">Confirm</sys:String>
+    <sys:String x:Key="MSG_ClosingSaveConfig_Text">Do you want to save the data of UI? It will be load nest time if you do not use -url to load online config.</sys:String>
+    <!--#endregion-->
+
+    <!--#region UI Text-->
+    <sys:String x:Key="UI_GroupBox_ControlPanel_Header">Control Panel</sys:String>
+    <sys:String x:Key="UI_GroupBox_DataPanel_Header">Data Panel</sys:String>
+    <sys:String x:Key="UI_GroupBox_LogPanel_Header">Log Panel</sys:String>
+    <sys:String x:Key="UI_Button_UpdateReplayLib_Content">UpDate Replay Lib</sys:String>
+    <sys:String x:Key="UI_Button_Generation_Content">Generate Config</sys:String>
+    <sys:String x:Key="UI_RegionInfoConfig_RegionNorthAmerica_Header">North America</sys:String>
+    <sys:String x:Key="UI_RegionInfoConfig_RegionEuropeAndRussia_Header">Europe &amp; Russia</sys:String>
+    <sys:String x:Key="UI_RegionInfoConfig_RegionKoreaAndTaiWan_Header">Korea &amp; TaiWan</sys:String>
+    <sys:String x:Key="UI_RegionInfoConfig_RegionChina_Header">China</sys:String>
+    <sys:String x:Key="UI_GroupBox_ReplayPath_Header">Replay Path:</sys:String>
+    <sys:String x:Key="UI_TextBlock_ReplayFile_Text">Replay File:</sys:String>
+    <sys:String x:Key="UI_SelectPatchControl_ReplayPath_Filter">SC2 Replay|*.SC2Replay</sys:String>
+    <sys:String x:Key="UI_SelectPatchControl_ReplayPath_TitleDescription">Select SC2 Replay</sys:String>
+    <sys:String x:Key="UI_SelectPatchControl_ReplayPath_ButtonContent">Select</sys:String>
+    <sys:String x:Key="UI_GroupBox_OtherConfig_Header">Other Config:</sys:String>
+    <sys:String x:Key="UI_TextBlock_PlayerHandleOfAuthor_Text">Player Handle Of Author:</sys:String>
+    <sys:String x:Key="UI_TextBlock_GameLink_Text">Game Link:</sys:String>
+    <sys:String x:Key="UI_TextBlock_GameName_Text">GameName：</sys:String>
+    <sys:String x:Key="UI_GroupBox_ChangeLogConfig_Header">Change Log Config:</sys:String>
+    <sys:String x:Key="UI_Button_CleanAllChangeLog_Content">Clean Log</sys:String>
+    <sys:String x:Key="UI_ProgressWindow_Title">Download Cache File</sys:String>
+    <sys:String x:Key="UI_ProgressWindow_DownloadSize">Download:</sys:String>
+    <sys:String x:Key="UI_ProgressWindow_StopButton">Stop</sys:String>
+    <!--#endregion-->
+
+</ResourceDictionary>

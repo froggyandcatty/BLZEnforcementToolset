@@ -1,0 +1,162 @@
+<?xml version="1.0" standalone="yes"?>
+<BLZ_EmailAndMapConfigDataSet xmlns="http://tempuri.org/BLZ_EmailAndMapConfigDataSet.xsd">
+  <DataTable_MapConfig>
+    <MapName>暴雪防卫局</MapName>
+    <ConfigAddress>http://froggyandcatty.com/sc2software/BLZconfig/BlzEnforcement.cfg</ConfigAddress>
+  </DataTable_MapConfig>
+  <DataTable_EmailGameRegionConfig>
+    <RegionIndex>1</RegionIndex>
+    <EmailSmtpHost></EmailSmtpHost>
+    <EmailSmtpPort></EmailSmtpPort>
+    <EmailSmtpUser></EmailSmtpUser>
+    <EmailSmtpPassword></EmailSmtpPassword>
+    <EmailSmtpFrom></EmailSmtpFrom>
+    <GameBankNamePrefix></GameBankNamePrefix>
+    <AuthorPlayerHandle></AuthorPlayerHandle>
+  </DataTable_EmailGameRegionConfig>
+  <DataTable_EmailGameRegionConfig>
+    <RegionIndex>2</RegionIndex>
+    <EmailSmtpHost></EmailSmtpHost>
+    <EmailSmtpPort></EmailSmtpPort>
+    <EmailSmtpUser></EmailSmtpUser>
+    <EmailSmtpPassword></EmailSmtpPassword>
+    <EmailSmtpFrom></EmailSmtpFrom>
+    <GameBankNamePrefix></GameBankNamePrefix>
+    <AuthorPlayerHandle></AuthorPlayerHandle>
+  </DataTable_EmailGameRegionConfig>
+  <DataTable_EmailGameRegionConfig>
+    <RegionIndex>3</RegionIndex>
+    <EmailSmtpHost></EmailSmtpHost>
+    <EmailSmtpPort></EmailSmtpPort>
+    <EmailSmtpUser></EmailSmtpUser>
+    <EmailSmtpPassword></EmailSmtpPassword>
+    <EmailSmtpFrom></EmailSmtpFrom>
+    <GameBankNamePrefix></GameBankNamePrefix>
+    <AuthorPlayerHandle></AuthorPlayerHandle>
+  </DataTable_EmailGameRegionConfig>
+  <DataTable_EmailGameRegionConfig>
+    <RegionIndex>5</RegionIndex>
+    <EmailSmtpHost></EmailSmtpHost>
+    <EmailSmtpPort></EmailSmtpPort>
+    <EmailSmtpUser></EmailSmtpUser>
+    <EmailSmtpPassword></EmailSmtpPassword>
+    <EmailSmtpFrom></EmailSmtpFrom>
+    <GameBankNamePrefix></GameBankNamePrefix>
+    <AuthorPlayerHandle></AuthorPlayerHandle>
+  </DataTable_EmailGameRegionConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>2052</LanguageId>
+    <EmailSubject>《BLZ防卫局》存档</EmailSubject>
+    <EmailBody>&lt;p&gt;&lt;h3&gt;&lt;strong&gt;《BLZ防卫局》Beta测试版4月15号：&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;更新日志：&lt;/strong&gt;&lt;/p&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;由于种种问题至今才更新Beta版本地图，感谢各位玩家耐心等待和谅解。此Beta版本为临时修复，目前此版本仍然存在若干问题，需要等待暴雪进行修复，请大家注意备份存档。也请加入80794620游戏群或到&lt;a href="http://bbs.islga.org"target="_blank"&gt;bbs.islga.org&lt;/a&gt;反馈交流问题。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;新内容：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;新特工：雕眼-电磁炮，能够通过蓄力造成巨大伤害。擅长对抗单个敌人。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;新特工：光头哥-重装甲，能够使用肩部加农炮进行远程攻击，并通过装填不同弹药来改变打击效果。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;新的宝石（领袖之证）能够强化特定英雄的终极技能：&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;荣誉勋章：暴雪队长的加特林机枪增加额外50发子弹。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;热血漫画：光头哥可以发射三连发火箭飞拳，飞拳会持续殴打首领级的敌人。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;先祖头骨：加摩尔的复活能力延长至30秒，并且在触发时造成大爆炸。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;灵魂之火：格拉罕的大招可以在移动中释放。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;誓言戒指：黑暗骑士的绝招变为氪石炸弹，能够在造成伤害同时虚弱敌人单位。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;平衡性调整：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;光头哥的""火箭飞拳""(F)技能伤害量从700%提高到1200%武器伤害，并造成大量威胁值。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;加摩尔的""脱手斧""(右键)技能伤害量从100%提高到150%武器伤害。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;加摩尔的""旋风斩""(Q)技能伤害量（每次）从50%提高到100%武器伤害，能量消耗为10点每秒。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;加摩尔的""战斗怒吼""(E)技能的范围从4提高到5。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;黑暗骑士的""重击""(Q)技能使用后，有2秒的无敌时间。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;错误修复：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;成就称号现在可以被正常显示了。";&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>true</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>1028</LanguageId>
+    <EmailSubject>《BLZ防衛局》存檔</EmailSubject>
+    <EmailBody>&lt;p&gt;&lt;h3&gt;《BLZ防衛局》Beta測試版4月15號：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;更新日誌：&lt;/strong&gt;&lt;/p&gt;&amp;nbsp;&amp;nbsp;由於種種問題至今才更新Beta版本地圖，感謝各位玩家耐心等待和諒解。此Beta版本為臨時修復，目前此版本仍然存在若干問題，需要等待暴雪進行修復，請大家注意備份存檔。也請加入80794620遊戲群或到&lt;a href="http://bbs.islga.org"target="_blank"&gt;bbs.islga.org&lt;/a&gt;回饋交流問題。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;新內容：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;新特工：雕眼-電磁炮，能夠通過蓄力造成巨大傷害。擅長對抗單個敵人。&lt;br/&gt;&amp;nbsp;&amp;nbsp;新特工：光頭哥-重裝甲，能夠使用肩部加農炮進行遠端攻擊，並通過裝填不同彈藥來改變打擊效果。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;新的寶石（領袖之證）能夠強化特定英雄的終極技能：&lt;br/&gt;&amp;nbsp;&amp;nbsp;榮譽勳章：暴雪隊長的加特林機槍增加額外50發子彈。&lt;br/&gt;&amp;nbsp;&amp;nbsp;熱血漫畫：光頭哥可以發射三連發火箭飛拳，飛拳會持續毆打首領級的敵人。&lt;br/&gt;&amp;nbsp;&amp;nbsp;先祖頭骨：加摩爾的復活能力延長至30秒，並且在觸發時造成大爆炸。&lt;br/&gt;&amp;nbsp;&amp;nbsp;靈魂之火：格拉罕的大招可以在移動中釋放。&lt;br/&gt;&amp;nbsp;&amp;nbsp;誓言戒指：黑暗騎士的絕招變為氪石炸彈，能夠在造成傷害同時虛弱敵人單位。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;平衡性調整：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;光頭哥的""火箭飛拳""(F)技能傷害量從700%提高到1200%武器傷害，並造成大量威脅值。&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;加摩爾的""脫手斧""(右鍵)技能傷害量從100%提高到150%武器傷害。&lt;br/&gt;&amp;nbsp;&amp;nbsp;加摩爾的""旋風斬""(Q)技能傷害量（每次）從50%提高到100%武器傷害，能量消耗為10點每秒。&lt;br/&gt;&amp;nbsp;&amp;nbsp;加摩爾的""戰鬥怒吼""(E)技能的範圍從4提高到5。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;黑暗騎士的""重擊""(Q)技能使用後，有2秒的無敵時間。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;錯誤修復：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;成就稱號現在可以被正常顯示了。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>true</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>1033</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>1031</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>2058</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>3082</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>1036</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>1040</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>1045</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>1046</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>1049</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_EmailLanguageConfig>
+    <LanguageId>1042</LanguageId>
+    <EmailSubject>&lt;BLZ Enforcement&gt; Game Bank</EmailSubject>
+    <EmailBody>&lt;h3&gt;Blizzard Enforcement Beta test April,15：&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Change Log:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Since Blizzard released the update patch 4.0.19 and 4.1.0 on December,2017.&lt;br/&gt;&amp;nbsp;&amp;nbsp;The upgrades in patch 4.0.19 and 4.1.0 not just added new functions and tools,but also changed or removed many old functions that we used a lot in our mods.these new changes and modifications caused unexpected bugs to many arcade mods made by the community.Now the game is covered,but we still suggest players to backup your game banks to avoid unexpect losts.Please contact us(Email:jifengxiang1@gmail.com,Forum:https:&lt;br/&gt;&lt;strong&gt;Updates:&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;1)New Agent：Brett Wood(MAC Gun),2)New Agent：Dustin Browder(Grenadier),3)New Gem：&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-medal of honour:Enhance Captain's skill: Increase 50 additional bullets to gatling gun&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Superhero magazine: Enhance Imba Man's skill:Spiral Rocket Fists，launch three smaller rocket fists that automatically attack enemies（Boss class）&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Ancestors's skull: Enhance Gamon's skill:Rebirth state extends 30 sec and damage enemies nearby when triggered.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Collection-Soul Fire:Enhance Graham's skill: Graham can move when spell gravity disintegration.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Collection-Ring of Promise: Enhance Dark knight's skill:Change bomb to kryptonite bomb,can weak enemy when explode.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Balance adjustment：&lt;/strong&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Imba Man's Rocket fist damage from 700% to 1200% Weapon damage. Produce high hostility to target enemy.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Throw axe damage from 100%to 150%weapon damage.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Increase Gamon's Blade storm damage from 50% to 100% weapon damage.Energy cost increase from 0 to 10 per sec.&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; Increase Gamon's Battle cry affect area from 4 to 5.&lt;br/&gt;&amp;nbsp;&amp;nbsp;Dark knight now becomes invincible in 2 sec after using skill:Thump.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</EmailBody>
+    <IsBodyHtml>false</IsBodyHtml>
+  </DataTable_EmailLanguageConfig>
+  <DataTable_Config>
+    <GameCacheConfig>http://froggyandcatty.com/sc2software/BLZconfig/BlzEnforcement.cfg</GameCacheConfig>
+  </DataTable_Config>
+</BLZ_EmailAndMapConfigDataSet>

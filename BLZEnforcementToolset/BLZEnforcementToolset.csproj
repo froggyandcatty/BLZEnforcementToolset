@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3E26E36-F005-484F-A311-00B12B8786DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLZEnforcementToolset</RootNamespace>
+    <AssemblyName>BLZEnforcementToolset</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>default</LangVersion>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Build\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>default</LangVersion>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.0.0.999, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.1.0.0\lib\net45\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BLZControl\BLZ_Button.cs" />
+    <Compile Include="BLZControl\BLZ_ComboBox.cs" />
+    <Compile Include="BLZControl\BLZ_ModeSwitch.cs" />
+    <Compile Include="BLZControl\BLZ_ProgressBar.cs" />
+    <Compile Include="BLZControl\BLZ_ScrollBar.cs" />
+    <Compile Include="BLZControl\BLZ_ScrollViewer.cs" />
+    <Compile Include="BLZControl\BLZ_TextBlock.xaml.cs">
+      <DependentUpon>BLZ_TextBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BLZControl\BLZ_TextBox.cs" />
+    <Compile Include="BLZControl\BLZ_ToggleButton.cs" />
+    <Compile Include="BLZControl\BLZ_Window.xaml.cs">
+      <DependentUpon>BLZ_Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BLZ_AboutWindow.xaml.cs">
+      <DependentUpon>BLZ_AboutWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Assets\Assets.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BLZControl\BLZ_TextBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BLZControl\BLZ_Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BLZEnforcementToolset.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLZEnforcementToolset.xaml.cs">
+      <DependentUpon>BLZEnforcementToolset.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="BLZ_AboutWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Language\enUS.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Language\zhTW.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Language\zhCN.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Themes\enUSFonts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="Assets\eurostileext-med.ttf" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonDisable.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonDown.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonNorm.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonOver.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Buttonpulldown_Down.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Buttonpulldown_Norm.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Buttonpulldown_Over.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Complete.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MainFrame.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownFrameCenter.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownFrameCenter2.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownFrameLeft.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownFrameLeft1.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownFrameRight.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownFrameRight2.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuFrameLarge.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuFrameSmall.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ProgressbarFrame.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Waning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownFrameCenterDown.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownFrameCenterOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownArrowDown.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownArrowNormal.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_MenuDropdownArrowOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_TitleImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_RollingBarBottomDown.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_RollingBarBottomNormal.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_RollingBarBottomOver.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_RollingBarmiddileDown.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_RollingBarmiddileNormal.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_RollingBarmiddileOver.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_RollingBarTopDown.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_RollingBarTopNormal.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_RollingBarTopOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonClose_Down.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonClose_Normal.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonClose_Over.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonHelp_Down.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonHelp_Normal.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonHelp_Over.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Frame_01.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Frame_02.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Frame_03.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Frame_04.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Frame_05.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Frame_06.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Frame_07.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Frame_08.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Frame_09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="图标.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\Ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_Progressbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_DownAhliPay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonDonateDown.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonDonateNorma.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_ButtonDonateOver.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_Paypallink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLZOnLineConfigDataSetStruct\BLZOnLineConfigDataSetStruct.csproj">
+      <Project>{7d8f6275-9b4c-4160-9eaa-8aaa95d4b8c7}</Project>
+      <Name>BLZOnLineConfigDataSetStruct</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC2OnLineConfigDataSetStruct\SC2OnLineConfigDataSetStruct.csproj">
+      <Project>{830a64f3-b046-4405-b367-b41eefd2e2e3}</Project>
+      <Name>SC2OnLineConfigDataSetStruct</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_ModeSwitch.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_SignalLightGreen.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_SignalLightinitializing.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_SignalLightOff.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_SignalLightOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_ArcadeMode_Background.png" />
+    <Resource Include="Assets\Image\WhimKey_UI_TitleImage02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Image\WhimKey_UI_ModeSwitch_On.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

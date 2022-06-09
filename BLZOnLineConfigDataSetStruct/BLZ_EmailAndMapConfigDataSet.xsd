@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BLZ_EmailAndMapConfigDataSet" targetNamespace="http://tempuri.org/BLZ_EmailAndMapConfigDataSet.xsd" xmlns:mstns="http://tempuri.org/BLZ_EmailAndMapConfigDataSet.xsd" xmlns="http://tempuri.org/BLZ_EmailAndMapConfigDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BLZ_EmailAndMapConfigDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="BLZ_EmailAndMapConfigDataSet" msprop:Generator_UserDSName="BLZ_EmailAndMapConfigDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_MapConfig" msprop:Generator_TableClassName="DataTable_MapConfigDataTable" msprop:Generator_TableVarName="tableDataTable_MapConfig" msprop:Generator_TablePropName="DataTable_MapConfig" msprop:Generator_RowDeletingName="DataTable_MapConfigRowDeleting" msprop:Generator_RowChangingName="DataTable_MapConfigRowChanging" msprop:Generator_RowEvHandlerName="DataTable_MapConfigRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_MapConfigRowDeleted" msprop:Generator_UserTableName="DataTable_MapConfig" msprop:Generator_RowChangedName="DataTable_MapConfigRowChanged" msprop:Generator_RowEvArgName="DataTable_MapConfigRowChangeEvent" msprop:Generator_RowClassName="DataTable_MapConfigRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MapName" msprop:Generator_ColumnVarNameInTable="columnMapName" msprop:Generator_ColumnPropNameInRow="MapName" msprop:Generator_ColumnPropNameInTable="MapNameColumn" msprop:Generator_UserColumnName="MapName" type="xs:string" />
+              <xs:element name="ConfigAddress" msprop:Generator_ColumnVarNameInTable="columnConfigAddress" msprop:Generator_ColumnPropNameInRow="ConfigAddress" msprop:Generator_ColumnPropNameInTable="ConfigAddressColumn" msprop:Generator_UserColumnName="ConfigAddress" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable_EmailGameRegionConfig" msprop:Generator_TableClassName="DataTable_EmailGameRegionConfigDataTable" msprop:Generator_TableVarName="tableDataTable_EmailGameRegionConfig" msprop:Generator_TablePropName="DataTable_EmailGameRegionConfig" msprop:Generator_RowDeletingName="DataTable_EmailGameRegionConfigRowDeleting" msprop:Generator_RowChangingName="DataTable_EmailGameRegionConfigRowChanging" msprop:Generator_RowEvHandlerName="DataTable_EmailGameRegionConfigRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_EmailGameRegionConfigRowDeleted" msprop:Generator_UserTableName="DataTable_EmailGameRegionConfig" msprop:Generator_RowChangedName="DataTable_EmailGameRegionConfigRowChanged" msprop:Generator_RowEvArgName="DataTable_EmailGameRegionConfigRowChangeEvent" msprop:Generator_RowClassName="DataTable_EmailGameRegionConfigRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RegionIndex" msprop:Generator_ColumnVarNameInTable="columnRegionIndex" msprop:Generator_ColumnPropNameInRow="RegionIndex" msprop:Generator_ColumnPropNameInTable="RegionIndexColumn" msprop:Generator_UserColumnName="RegionIndex" type="xs:int" />
+              <xs:element name="EmailSmtpHost" msprop:Generator_ColumnVarNameInTable="columnEmailSmtpHost" msprop:Generator_ColumnPropNameInRow="EmailSmtpHost" msprop:Generator_ColumnPropNameInTable="EmailSmtpHostColumn" msprop:Generator_UserColumnName="EmailSmtpHost" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailSmtpPort" msprop:Generator_ColumnVarNameInTable="columnEmailSmtpPort" msprop:Generator_ColumnPropNameInRow="EmailSmtpPort" msprop:Generator_ColumnPropNameInTable="EmailSmtpPortColumn" msprop:Generator_UserColumnName="EmailSmtpPort" type="xs:int" minOccurs="0" />
+              <xs:element name="EmailSmtpUser" msprop:Generator_ColumnVarNameInTable="columnEmailSmtpUser" msprop:Generator_ColumnPropNameInRow="EmailSmtpUser" msprop:Generator_ColumnPropNameInTable="EmailSmtpUserColumn" msprop:Generator_UserColumnName="EmailSmtpUser" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailSmtpPassword" msprop:Generator_ColumnVarNameInTable="columnEmailSmtpPassword" msprop:Generator_ColumnPropNameInRow="EmailSmtpPassword" msprop:Generator_ColumnPropNameInTable="EmailSmtpPasswordColumn" msprop:Generator_UserColumnName="EmailSmtpPassword" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailSmtpFrom" msprop:Generator_ColumnVarNameInTable="columnEmailSmtpFrom" msprop:Generator_ColumnPropNameInRow="EmailSmtpFrom" msprop:Generator_ColumnPropNameInTable="EmailSmtpFromColumn" msprop:Generator_UserColumnName="EmailSmtpFrom" type="xs:string" minOccurs="0" />
+              <xs:element name="GameBankNamePrefix" msprop:Generator_ColumnVarNameInTable="columnGameBankNamePrefix" msprop:Generator_ColumnPropNameInRow="GameBankNamePrefix" msprop:Generator_ColumnPropNameInTable="GameBankNamePrefixColumn" msprop:Generator_UserColumnName="GameBankNamePrefix" type="xs:string" minOccurs="0" />
+              <xs:element name="AuthorPlayerHandle" msprop:Generator_ColumnVarNameInTable="columnAuthorPlayerHandle" msprop:Generator_ColumnPropNameInRow="AuthorPlayerHandle" msprop:Generator_ColumnPropNameInTable="AuthorPlayerHandleColumn" msprop:Generator_UserColumnName="AuthorPlayerHandle" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable_EmailLanguageConfig" msprop:Generator_TableClassName="DataTable_EmailLanguageConfigDataTable" msprop:Generator_TableVarName="tableDataTable_EmailLanguageConfig" msprop:Generator_TablePropName="DataTable_EmailLanguageConfig" msprop:Generator_RowDeletingName="DataTable_EmailLanguageConfigRowDeleting" msprop:Generator_RowChangingName="DataTable_EmailLanguageConfigRowChanging" msprop:Generator_RowEvHandlerName="DataTable_EmailLanguageConfigRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_EmailLanguageConfigRowDeleted" msprop:Generator_UserTableName="DataTable_EmailLanguageConfig" msprop:Generator_RowChangedName="DataTable_EmailLanguageConfigRowChanged" msprop:Generator_RowEvArgName="DataTable_EmailLanguageConfigRowChangeEvent" msprop:Generator_RowClassName="DataTable_EmailLanguageConfigRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LanguageId" msprop:Generator_ColumnVarNameInTable="columnLanguageId" msprop:Generator_ColumnPropNameInRow="LanguageId" msprop:Generator_ColumnPropNameInTable="LanguageIdColumn" msprop:Generator_UserColumnName="LanguageId" type="xs:int" />
+              <xs:element name="EmailSubject" msprop:Generator_ColumnVarNameInTable="columnEmailSubject" msprop:Generator_ColumnPropNameInRow="EmailSubject" msprop:Generator_ColumnPropNameInTable="EmailSubjectColumn" msprop:Generator_UserColumnName="EmailSubject" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailBody" msprop:Generator_ColumnVarNameInTable="columnEmailBody" msprop:Generator_ColumnPropNameInRow="EmailBody" msprop:Generator_ColumnPropNameInTable="EmailBodyColumn" msprop:Generator_UserColumnName="EmailBody" type="xs:string" minOccurs="0" />
+              <xs:element name="IsBodyHtml" msprop:Generator_ColumnVarNameInTable="columnIsBodyHtml" msprop:Generator_ColumnPropNameInRow="IsBodyHtml" msprop:Generator_ColumnPropNameInTable="IsBodyHtmlColumn" msprop:Generator_UserColumnName="IsBodyHtml" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable_Config" msprop:Generator_TableClassName="DataTable_ConfigDataTable" msprop:Generator_TableVarName="tableDataTable_Config" msprop:Generator_TablePropName="DataTable_Config" msprop:Generator_RowDeletingName="DataTable_ConfigRowDeleting" msprop:Generator_RowChangingName="DataTable_ConfigRowChanging" msprop:Generator_RowEvHandlerName="DataTable_ConfigRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_ConfigRowDeleted" msprop:Generator_UserTableName="DataTable_Config" msprop:Generator_RowChangedName="DataTable_ConfigRowChanged" msprop:Generator_RowEvArgName="DataTable_ConfigRowChangeEvent" msprop:Generator_RowClassName="DataTable_ConfigRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GameCacheConfig" msprop:Generator_ColumnVarNameInTable="columnGameCacheConfig" msprop:Generator_ColumnPropNameInRow="GameCacheConfig" msprop:Generator_ColumnPropNameInTable="GameCacheConfigColumn" msprop:Generator_UserColumnName="GameCacheConfig" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="DataTable_MapConfigKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable_MapConfig" />
+      <xs:field xpath="mstns:MapName" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable_EmailGameRegionConfig" />
+      <xs:field xpath="mstns:RegionIndex" />
+    </xs:unique>
+    <xs:unique name="DataTable_EmailLanguageConfig_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable_EmailLanguageConfig" />
+      <xs:field xpath="mstns:LanguageId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

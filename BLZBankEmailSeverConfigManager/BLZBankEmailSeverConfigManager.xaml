@@ -1,0 +1,166 @@
+﻿<Window x:Class="BLZEnforcementToolset.BLZBankEmailSeverConfigManager_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BLZEnforcementToolset"
+        xmlns:data="clr-namespace:SC2OnLineConfigDataSetStruct;assembly=SC2OnLineConfigDataSetStruct"
+        xmlns:whconv="clr-namespace:WH_CommonControlLibrary.UIControl.Converter;assembly=WH_CommonControlLibrary"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Height="1000" Width="1200" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="语言配置" Grid.Column="0" Grid.Row="0" Margin="3">
+            <TabControl Name="TabControl_LanguageConfig" Margin="3">
+                <local:BLZLanguageConfig x:Name="LanguageInfo_zhCN" Header="zhCN" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.zhCN}" VersionLogTextChangeHandler="LanguageInfo_zhCN_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_zhTW" Header="zhTW" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.zhTW}" VersionLogTextChangeHandler="LanguageInfo_zhTW_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_enUS" Header="enUS" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.enUS}" VersionLogTextChangeHandler="LanguageInfo_enUS_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_deDE" Header="deDE" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.deDE}" VersionLogTextChangeHandler="LanguageInfo_deDE_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_esMX" Header="esMX" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.esMX}" VersionLogTextChangeHandler="LanguageInfo_esMX_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_esES" Header="esES" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.esES}" VersionLogTextChangeHandler="LanguageInfo_esES_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_frFR" Header="frFR" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.frFR}" VersionLogTextChangeHandler="LanguageInfo_frFR_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_itIT" Header="itIT" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.itIT}" VersionLogTextChangeHandler="LanguageInfo_itIT_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_plPL" Header="plPL" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.plPL}" VersionLogTextChangeHandler="LanguageInfo_plPL_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_ptBR" Header="ptBR" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.ptBR}" VersionLogTextChangeHandler="LanguageInfo_ptBR_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_ruRU" Header="ruRU" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.ruRU}" VersionLogTextChangeHandler="LanguageInfo_ruRU_VersionLogTextChangeHandler"/>
+                <local:BLZLanguageConfig x:Name="LanguageInfo_koKR" Header="koKR" Tag="{x:Static data:SC2_MapInfoDataSet+EnumLanguage.koKR}" VersionLogTextChangeHandler="LanguageInfo_koKR_VersionLogTextChangeHandler"/>
+            </TabControl>
+        </GroupBox>
+        <Grid Grid.Column="0" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <GroupBox Header="数据配置" Grid.Row="0" Margin="3">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                <TabControl Name="TabControl_RegionConfig" Grid.Row="0" Margin="3">
+                    <local:BLZRegionInfoConfig x:Name="RegionInfoConfig_RegionNorthAmerica" Header="北美" Tag="{x:Static data:SC2_MapInfoDataSet+EnumGameRegion.NorthAmerica}"/>
+                    <local:BLZRegionInfoConfig x:Name="RegionInfoConfig_RegionEuropeAndRussia"  Header="欧洲" Tag="{x:Static data:SC2_MapInfoDataSet+EnumGameRegion.EuropeAndRussia}"/>
+                    <local:BLZRegionInfoConfig x:Name="RegionInfoConfig_RegionKoreaAndTaiWan"  Header="台湾" Tag="{x:Static data:SC2_MapInfoDataSet+EnumGameRegion.KoreaAndTaiWan}"/>
+                    <local:BLZRegionInfoConfig x:Name="RegionInfoConfig_RegionChina"  Header="中国" Tag="{x:Static data:SC2_MapInfoDataSet+EnumGameRegion.China}" />
+                </TabControl>
+                    <GroupBox Header="游戏配置" Grid.Row="1" Margin="3">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="缓存配置：" VerticalAlignment="Center" Margin="3"/>
+                            <TextBox Name="TextBox_BLZGameCacheConfig" Grid.Column="1" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="3"/>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="版本信息" Grid.Row="1" Margin="3">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <GroupBox Header="版本配置" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Column="0" Grid.Row="0" Text="配置链接：" VerticalAlignment="Center" Margin="3"/>
+                            <TextBox Name="TextBox_VersionConfigLink" Grid.Column="1" Grid.Row="0" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="3" IsReadOnly="True"/>
+                            <TextBlock Grid.Column="0" Grid.Row="1" Text="下载链接：" VerticalAlignment="Center" Margin="3"/>
+                            <TextBox Name="TextBox_VersionDownloadLink" Grid.Column="1" Grid.Row="1" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="3" TextChanged="TextBox_VersionDownloadLink_TextChanged"/>
+                            <TextBlock Grid.Column="0" Grid.Row="2" Text="版本号：" VerticalAlignment="Center" Margin="3"/>
+                            <Grid Grid.Column="1" Grid.Row="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="199.333"/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBox Name="TextBox_VersionMajorVersion" Grid.Column="0" IsReadOnly="True" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="3" InputMethod.IsInputMethodEnabled="False"/>
+                                <TextBox Name="TextBox_VersionMinorVersion" Grid.Column="1" IsReadOnly="True" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="3" InputMethod.IsInputMethodEnabled="False"/>
+                                <TextBox Name="TextBox_VersionBuildVersion" Grid.Column="2" IsReadOnly="True" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="3" InputMethod.IsInputMethodEnabled="False"/>
+                                <TextBox Name="TextBox_VersionRevisedVersion" Grid.Column="3" IsReadOnly="True" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="3" InputMethod.IsInputMethodEnabled="False"/>
+
+                            </Grid>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="版本控制" Grid.Column="0" Grid.Row="1">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <ComboBox Name="ComboBox_SoftwareVersion" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" Margin="3" SelectionChanged="ComboBox_SoftwareVersion_SelectionChanged" SelectedIndex="0"/>
+                            <Button Name="Button_VersionNew" Content="新建" Grid.Column="0" Grid.Row="1" Margin="3" Click="Button_VersionNew_Click"/>
+                            <Button Name="Button_VersionDelete" Content="删除" Grid.Column="1" Grid.Row="1" Margin="3" Click="Button_VersionDelete_Click" IsEnabled="{Binding ElementName=ComboBox_SoftwareVersion,Path=SelectedItem, Converter={StaticResource ResourceKey=CommonNullValueConverterConverter}}"/>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="生成配置" Grid.Column="1" Grid.Row="1">
+                        <Button Name="Button_Generate" Content="生成" Margin="3" Click="Button_Generate_Click"/>
+                    </GroupBox>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="0" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <GroupBox Header="游戏配置" Grid.Row="0" Margin="3">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBox Name="TextBox_MapSearch" Grid.Row="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="3" TextChanged="TextBox_MapSearch_TextChanged"/>
+                    <ListBox Name="ListBox_MapList" Grid.Row="1" Margin="3" SelectionMode="Single" SelectionChanged="ListBox_MapGameList_SelectionChanged"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="配置地址" Grid.Row="1" Margin="3">
+                <TextBox Name="TextBox_MapConfigUrl" Margin="3" IsEnabled="{Binding ElementName=ListBox_GameList,Path=SelectedItem, Converter={StaticResource ResourceKey=CommonNullValueConverterConverter}}" TextChanged="TextBox_MapConfigUrl_TextChanged"/>
+            </GroupBox>
+            <GroupBox Header="备注名称" Grid.Row="2" Margin="3">
+                <TextBox Name="TextBox_MapName" Margin="3" IsEnabled="{Binding ElementName=ListBox_GameList,Path=SelectedItem, Converter={StaticResource ResourceKey=CommonNullValueConverterConverter}}" TextChanged="TextBox_MapName_TextChanged"/>
+            </GroupBox>
+            <GroupBox Header="控制面板" Grid.Row="3" Margin="3">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Name="Button_MapConfigCreate" Content="创建Map" Grid.Column="0" Margin="3" Click="Button_MapConfigCreate_Click"/>
+                    <Button Name="Button_MapConfigDelete" Content="删除Map" Grid.Column="1" Margin="3" Click="Button_MapConfigDelete_Click" IsEnabled="{Binding ElementName=ListBox_MapList,Path=SelectedItem, Converter={StaticResource ResourceKey=CommonNullValueConverterConverter}}"/>
+                    <Button Name="Button_MapConfigShow" Content="显示Map" Grid.Column="2" Margin="3" Click="Button_MapConfigShow_Click" IsEnabled="{Binding ElementName=ListBox_MapList,Path=SelectedItem, Converter={StaticResource ResourceKey=CommonNullValueConverterConverter}}"/>
+                </Grid>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</Window>

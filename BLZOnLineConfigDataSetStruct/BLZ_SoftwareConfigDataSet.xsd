@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BLZ_SoftwareConfigDataSet" targetNamespace="http://tempuri.org/BLZ_SoftwareConfigDataSet.xsd" xmlns:mstns="http://tempuri.org/BLZ_SoftwareConfigDataSet.xsd" xmlns="http://tempuri.org/BLZ_SoftwareConfigDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BLZ_SoftwareConfigDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="BLZ_SoftwareConfigDataSet" msprop:Generator_UserDSName="BLZ_SoftwareConfigDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_VersionInfo" msprop:Generator_TableClassName="DataTable_VersionInfoDataTable" msprop:Generator_TableVarName="tableDataTable_VersionInfo" msprop:Generator_RowChangedName="DataTable_VersionInfoRowChanged" msprop:Generator_TablePropName="DataTable_VersionInfo" msprop:Generator_RowDeletingName="DataTable_VersionInfoRowDeleting" msprop:Generator_RowChangingName="DataTable_VersionInfoRowChanging" msprop:Generator_RowEvHandlerName="DataTable_VersionInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_VersionInfoRowDeleted" msprop:Generator_RowClassName="DataTable_VersionInfoRow" msprop:Generator_UserTableName="DataTable_VersionInfo" msprop:Generator_RowEvArgName="DataTable_VersionInfoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VersionString" msprop:Generator_ColumnVarNameInTable="columnVersionString" msprop:Generator_ColumnPropNameInRow="VersionString" msprop:Generator_ColumnPropNameInTable="VersionStringColumn" msprop:Generator_UserColumnName="VersionString" type="xs:string" />
+              <xs:element name="MajorVersion" msprop:Generator_ColumnVarNameInTable="columnMajorVersion" msprop:Generator_ColumnPropNameInRow="MajorVersion" msprop:Generator_ColumnPropNameInTable="MajorVersionColumn" msprop:Generator_UserColumnName="MajorVersion" type="xs:int" minOccurs="0" />
+              <xs:element name="MinorVersion" msprop:Generator_ColumnVarNameInTable="columnMinorVersion" msprop:Generator_ColumnPropNameInRow="MinorVersion" msprop:Generator_ColumnPropNameInTable="MinorVersionColumn" msprop:Generator_UserColumnName="MinorVersion" type="xs:int" minOccurs="0" />
+              <xs:element name="BuildVersion" msprop:Generator_ColumnVarNameInTable="columnBuildVersion" msprop:Generator_ColumnPropNameInRow="BuildVersion" msprop:Generator_ColumnPropNameInTable="BuildVersionColumn" msprop:Generator_UserColumnName="BuildVersion" type="xs:int" minOccurs="0" />
+              <xs:element name="RevisedVersion" msprop:Generator_ColumnVarNameInTable="columnRevisedVersion" msprop:Generator_ColumnPropNameInRow="RevisedVersion" msprop:Generator_ColumnPropNameInTable="RevisedVersionColumn" msprop:Generator_UserColumnName="RevisedVersion" type="xs:int" minOccurs="0" />
+              <xs:element name="DownloadAddress" msdata:Caption="ConfigAddress" msprop:Generator_ColumnVarNameInTable="columnDownloadAddress" msprop:Generator_ColumnPropNameInRow="DownloadAddress" msprop:Generator_ColumnPropNameInTable="DownloadAddressColumn" msprop:Generator_UserColumnName="DownloadAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="ConfigAddress" msprop:Generator_ColumnVarNameInTable="columnConfigAddress" msprop:Generator_ColumnPropNameInRow="ConfigAddress" msprop:Generator_ColumnPropNameInTable="ConfigAddressColumn" msprop:Generator_UserColumnName="ConfigAddress" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable_LanguageConfig" msprop:Generator_TableClassName="DataTable_LanguageConfigDataTable" msprop:Generator_TableVarName="tableDataTable_LanguageConfig" msprop:Generator_TablePropName="DataTable_LanguageConfig" msprop:Generator_RowDeletingName="DataTable_LanguageConfigRowDeleting" msprop:Generator_RowChangingName="DataTable_LanguageConfigRowChanging" msprop:Generator_RowEvHandlerName="DataTable_LanguageConfigRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_LanguageConfigRowDeleted" msprop:Generator_UserTableName="DataTable_LanguageConfig" msprop:Generator_RowChangedName="DataTable_LanguageConfigRowChanged" msprop:Generator_RowEvArgName="DataTable_LanguageConfigRowChangeEvent" msprop:Generator_RowClassName="DataTable_LanguageConfigRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" />
+              <xs:element name="LanguageId" msprop:Generator_ColumnVarNameInTable="columnLanguageId" msprop:Generator_ColumnPropNameInRow="LanguageId" msprop:Generator_ColumnPropNameInTable="LanguageIdColumn" msprop:Generator_UserColumnName="LanguageId" type="xs:int" />
+              <xs:element name="VersionString" msprop:Generator_ColumnVarNameInTable="columnVersionString" msprop:Generator_ColumnPropNameInRow="VersionString" msprop:Generator_ColumnPropNameInTable="VersionStringColumn" msprop:Generator_UserColumnName="VersionString" type="xs:string" minOccurs="0" />
+              <xs:element name="SoftwareChangeLog" msprop:Generator_ColumnVarNameInTable="columnSoftwareChangeLog" msprop:Generator_ColumnPropNameInRow="SoftwareChangeLog" msprop:Generator_ColumnPropNameInTable="SoftwareChangeLogColumn" msprop:Generator_UserColumnName="SoftwareChangeLog" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable_VersionInfo" />
+      <xs:field xpath="mstns:VersionString" />
+    </xs:unique>
+    <xs:unique name="DataTable_LanguageConfigKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable_LanguageConfig" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:keyref name="Relation_VersionString_LanguageConfig" refer="Constraint1" msprop:rel_Generator_UserChildTable="DataTable_LanguageConfig" msprop:rel_Generator_ChildPropName="GetDataTable_LanguageConfigRows" msprop:rel_Generator_UserRelationName="Relation_VersionString_LanguageConfig" msprop:rel_Generator_RelationVarName="relationRelation_VersionString_LanguageConfig" msprop:rel_Generator_UserParentTable="DataTable_VersionInfo" msprop:rel_Generator_ParentPropName="DataTable_VersionInfoRow">
+      <xs:selector xpath=".//mstns:DataTable_LanguageConfig" />
+      <xs:field xpath="mstns:VersionString" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

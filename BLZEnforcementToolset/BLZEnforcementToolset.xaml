@@ -1,0 +1,105 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BLZEnforcementToolset"
+        xmlns:blz="clr-namespace:BLZEnforcementToolset.BLZControl"
+        xmlns:data="clr-namespace:SC2OnLineConfigDataSetStruct;assembly=SC2OnLineConfigDataSetStruct"
+        x:Class="BLZEnforcementToolset.BLZEnforcement_BankEmailTool"
+        x:Name="MainWindow"
+        mc:Ignorable="d"
+        Title="" Height="848" Width="657" WindowStyle="None" Closing="Window_Closing" SizeToContent="Manual" AllowsTransparency="True" ResizeMode="NoResize" Background="#00000000">
+    <Window.Resources>
+        <ResourceDictionary x:Name="ResourceDictionary_WindowLanguage">
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Language\enUS.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Canvas Name="Canvas_Main">
+        <Image x:Name="Image_ModeSwitch" Width="37" Height="122" Source="{StaticResource IMAGE_ModeSwitch}" SnapsToDevicePixels="True" Canvas.Top="484" Canvas.Left="6.5"/>
+        <Image x:Name="Image_BLZBackGound" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="{Binding ElementName=MainWindow,Path=Width}" Height="{Binding ElementName=MainWindow,Path=Height}" MouseMove="Window_MouseMove" Source="{StaticResource IMAGE_MainFrame}" SnapsToDevicePixels="True"/>
+        <Image x:Name="Image_ArcadeMode_Background" Width="557" Height="282" Source="{StaticResource IMAGE_ArcadeMode_Background}" SnapsToDevicePixels="True" Canvas.Top="210" Canvas.Left="55" Visibility="Collapsed"/>
+        <Image x:Name="Image_BLZBanner" Width="562" Height="153" Source="{StaticResource IMAGE_TitleImage}" Canvas.Left="43" Canvas.Top="44" SnapsToDevicePixels="True"/>
+        <blz:BLZ_TextBlock x:Name="TextBlock_Banner" Text="{DynamicResource UI_BLZTextBlock_Title_Text}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="24" Canvas.Left="198" Canvas.Top="76" Height="85" Width="330" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" TextWrapping="Wrap"/>
+        <blz:BLZ_Button x:Name="Button_BLZClose" Width="30" Height="30" Canvas.Left="546" Canvas.Top="64" Click="Button_Close_Click" NormalImage="{StaticResource IMAGE_ButtonClose_Normal}" PressImage="{StaticResource IMAGE_ButtonClose_Down}" HoverImage="{StaticResource IMAGE_ButtonClose_Over}" ToolTip="{DynamicResource UI_BLZToolTip_Close_Content}"/>
+        <blz:BLZ_Button x:Name="Button_BLZHelp" Width="30" Height="30" Canvas.Left="509" Canvas.Top="64" NormalImage="{StaticResource IMAGE_ButtonHelp_Normal}" PressImage="{StaticResource IMAGE_ButtonHelp_Down}" HoverImage="{StaticResource IMAGE_ButtonHelp_Over}" ToolTip="{DynamicResource UI_BLZToolTip_Help_Content}" Click="Button_BLZHelp_Click"/>
+        <blz:BLZ_ToggleButton x:Name="ToggleButton_BLZShowPullDownPage" Width="182" Height="31" NormalImage="{StaticResource IMAGE_Buttonpulldown_Norm}" CheckedImage="{StaticResource IMAGE_Buttonpulldown_Down}" HoverImage="{StaticResource IMAGE_Buttonpulldown_Over}" PressImage="{StaticResource IMAGE_Buttonpulldown_Over}" Canvas.Left="224" Canvas.Top="180" IsChecked="True" ToolTip="{DynamicResource UI_BLZToolTip_PullDown_Content}" MouseEnter="ToggleButton_BLZShowPullDownPage_MouseEnter" MouseLeave="ToggleButton_BLZShowPullDownPage_MouseLeave"/>
+        <blz:BLZ_Button x:Name="Button_BLZStart" Width="334" Height="112" Canvas.Left="169" Canvas.Top="650" NormalImage="{StaticResource IMAGE_ButtonNorm}" PressImage="{StaticResource IMAGE_ButtonDown}" HoverImage="{StaticResource IMAGE_ButtonOver}" DisableImage="{StaticResource IMAGE_ButtonDisable}" IsEnabled="False" Click="Button_BLZStart_Click"  ToolTip="{DynamicResource UI_BLZToolTip_Start_Content}">
+            <blz:BLZ_TextBlock Text="{DynamicResource UI_BLZButton_StartGame_Content}" Foreground="White" HaloForeground="White" HaloRadius="10" FontSize="36"/>
+        </blz:BLZ_Button>
+        <blz:BLZ_ComboBox x:Name="ComboBox_BLZLanguage" Width="130" Height="19" Canvas.Left="325" Canvas.Top="211" Foreground="White" SelectionChanged="ComboBox_BLZLanguage_SelectionChanged"/>
+        <blz:BLZ_ComboBox x:Name="ComboBox_BLZLocation" Width="130" Height="19" Canvas.Left="460" Canvas.Top="211" Foreground="White" SelectionChanged="ComboBox_BLZLocation_SelectionChanged">
+            <ComboBoxItem x:Name="ComboBoxItem_RegionNorthAmerica" Tag="{x:Static data:SC2_MapInfoDataSet+EnumGameRegion.NorthAmerica}" Content="{DynamicResource ResourceKey=UI_RegionName_NorthAmerica}" Foreground="White"/>
+            <ComboBoxItem x:Name="ComboBoxItem_RegionEuropeAndRussia" Tag="{x:Static data:SC2_MapInfoDataSet+EnumGameRegion.EuropeAndRussia}" Content="{DynamicResource ResourceKey=UI_RegionName_EuropeAndRussia}" Foreground="White"/>
+            <ComboBoxItem x:Name="ComboBoxItem_RegionKoreaAndTaiWan" Tag="{x:Static data:SC2_MapInfoDataSet+EnumGameRegion.KoreaAndTaiWan}" Content="{DynamicResource ResourceKey=UI_RegionName_KoreaAndTaiWan}" Foreground="White"/>
+            <ComboBoxItem x:Name="ComboBoxItem_RegionChina" Tag="{x:Static data:SC2_MapInfoDataSet+EnumGameRegion.China}" Content="{DynamicResource ResourceKey=UI_RegionName_China}" Foreground="White"/>
+        </blz:BLZ_ComboBox>
+        <blz:BLZ_TextBlock x:Name="TextBlock_Account" Text="{DynamicResource UI_BLZTextBlock_Account_Text}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="20"  Canvas.Left="80" Canvas.Top="258"/>
+        <blz:BLZ_ComboBox x:Name="ComboBox_BLZAccount" Width="454" Height="35" Canvas.Left="102" Canvas.Top="298" FontSize="16" Foreground="White"  SelectionChanged="ComboBox_BLZLanguage_SelectionChanged"/>
+        <blz:BLZ_TextBlock x:Name="TextBlock_ArcadeGame" Text="{DynamicResource UI_BLZTextBlock_ArcadeGame_Text}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="20"  Canvas.Left="80" Canvas.Top="281" Visibility="Hidden"/>
+        <blz:BLZ_ComboBox x:Name="ComboBox_ArcadeGame" Width="454" Height="35" Canvas.Left="102" Canvas.Top="321" FontSize="16" Foreground="White"  SelectionChanged="ComboBox_BLZLanguage_SelectionChanged" Visibility="Hidden"/>
+        <blz:BLZ_TextBlock x:Name="TextBlock_Email" Text="{DynamicResource UI_BLZTextBlock_Email_Text}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="20" Canvas.Left="80" Canvas.Top="352"/>
+        <blz:BLZ_TextBox x:Name="TextBox_BLZEmail" Width="454" Height="35" Canvas.Left="102" Canvas.Top="392" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="White" FontSize="16" CaretBrush="White" TextChanged="TextBox_BLZEmail_TextChanged"/>
+        <blz:BLZ_Button x:Name="Button_BLZRefresh" Width="137" Height="44" Canvas.Left="119" Canvas.Top="445" NormalImage="{StaticResource IMAGE_ButtonNorm}" PressImage="{StaticResource IMAGE_ButtonDown}" HoverImage="{StaticResource IMAGE_ButtonOver}" DisableImage="{StaticResource IMAGE_ButtonDisable}" IsEnabled="True" Click="Button_BLZRefresh_Click" ToolTip="{DynamicResource UI_BLZToolTip_Refresh_Content}">
+            <blz:BLZ_TextBlock Text="{DynamicResource UI_BLZButton_Refresh_Content}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="16"/>
+        </blz:BLZ_Button>
+        <blz:BLZ_Button x:Name="Button_BLZRestore" Width="137" Height="44" Canvas.Left="266" Canvas.Top="445" NormalImage="{StaticResource IMAGE_ButtonNorm}" PressImage="{StaticResource IMAGE_ButtonDown}" HoverImage="{StaticResource IMAGE_ButtonOver}" DisableImage="{StaticResource IMAGE_ButtonDisable}" Click="Button_BLZRestore_Click" ToolTip="{DynamicResource UI_BLZToolTip_Restore_Content}">
+            <blz:BLZ_TextBlock Text="{DynamicResource UI_BLZButton_Restore_Content}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="16"/>
+        </blz:BLZ_Button>
+        <blz:BLZ_Button x:Name="Button_BLZSendMail" Width="137" Height="44" Canvas.Left="412" Canvas.Top="445" NormalImage="{StaticResource IMAGE_ButtonNorm}" PressImage="{StaticResource IMAGE_ButtonDown}" HoverImage="{StaticResource IMAGE_ButtonOver}" DisableImage="{StaticResource IMAGE_ButtonDisable}" Click="Button_BLZSendMail_Click" ToolTip="{DynamicResource UI_BLZToolTip_Send_Content}">
+            <blz:BLZ_TextBlock Text="{DynamicResource UI_BLZButton_SendMail_Content}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="16"/>
+        </blz:BLZ_Button>
+        <blz:BLZ_TextBlock Text="{DynamicResource UI_BLZTextBlock_DownloadTitle_Text}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="20" Canvas.Left="80" Canvas.Top="497"/>
+        <blz:BLZ_ProgressBar x:Name="ProgressBar_BLZDownload" Width="411" Height="45" Canvas.Left="132" Canvas.Top="530" Style="{DynamicResource BLZ_ProgressBarStyle}" Maximum="100" Value="100"/>
+        <Grid Name="Grid_BLZDownloadInfo" Width="280" Height="30" Canvas.Left="132" Canvas.Top="592">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="{StaticResource IMAGE_MenuDropdownFrameLeft1}" Stretch="Fill"/>
+            <Image Grid.Column="1" Source="{StaticResource IMAGE_MenuDropdownFrameCenter2}" Stretch="Fill"/>
+            <blz:BLZ_TextBlock x:Name="TextBlock_BLZDownloadInfo" Grid.Column="1" Text="{Binding UI_BLZTextBlock_DownloadInfoDefault_Text}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="13" Canvas.Left="101" Canvas.Top="500" HorizontalContentAlignment="Right" Margin="3,0,3,0" HorizontalAlignment="Stretch" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
+            <Image Grid.Column="2" Source="{StaticResource IMAGE_MenuDropdownFrameRight2}" Stretch="Fill"/>
+        </Grid>
+        <blz:BLZ_Button x:Name="Button_BLZDownload" Width="137" Height="44" Canvas.Left="412" Canvas.Top="585" NormalImage="{StaticResource IMAGE_ButtonNorm}" PressImage="{StaticResource IMAGE_ButtonDown}" HoverImage="{StaticResource IMAGE_ButtonOver}" DisableImage="{StaticResource IMAGE_ButtonDisable}" IsEnabled="False" Click="Button_BLZDownload_Click" ToolTip="{DynamicResource UI_BLZToolTip_Start_Content}">
+            <blz:BLZ_TextBlock Text="{DynamicResource UI_BLZButton_Download_Content}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="15"/>
+        </blz:BLZ_Button>
+        <Canvas Name="Canvas_BLZInfoPannel" Width="520" Height="410" Canvas.Left="65" Canvas.Top="210" MouseEnter="Canvas_BLZInfoPannel_MouseEnter" MouseLeave="Canvas_BLZInfoPannel_MouseLeave" Visibility="Collapsed">
+            <!--<Canvas.Visibility>
+                <Binding ElementName="ToggleButton_BLZShowPullDownPage" Path="IsChecked">
+                    <Binding.Converter>
+                        <BooleanToVisibilityConverter/>
+                    </Binding.Converter>
+                </Binding>
+            </Canvas.Visibility>-->
+            <Canvas.Background>
+                <ImageBrush ImageSource="{StaticResource IMAGE_MenuFrameLarge}"/>
+            </Canvas.Background>
+            <Grid Name="Grid_BLZInfoPannelTitle" Width="150" Height="30" Canvas.Left="177" Canvas.Top="18">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="{StaticResource IMAGE_MenuDropdownFrameLeft}" Stretch="Fill"/>
+                <Image Grid.Column="1" Source="{StaticResource IMAGE_MenuDropdownFrameCenter}" Stretch="Fill" Grid.ColumnSpan="2"/>
+                <blz:BLZ_TextBlock x:Name="TextBlock_BLZInfoPannelTitle" Grid.Column="1" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="18" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalContentAlignment="Center" VerticalAlignment="Center" Text="{DynamicResource UI_BLZTextBlock_ChangeLog_Text}" Margin="3"/>
+                <Image Grid.Column="2" Source="{StaticResource IMAGE_MenuDropdownFrameRight}" Stretch="Fill"/>
+            </Grid>
+            <Grid Name="Grid_BLZInfoPanelText" Width="480" Height="320" Canvas.Left="20" Canvas.Top="65" SnapsToDevicePixels="True">
+                <blz:BLZ_ScrollViewer Height="{Binding ElementName=Grid_BLZInfoPanelText,Path=Height}" Width="{Binding ElementName=Grid_BLZInfoPanelText,Path=Width}" VerticalScrollBarVisibility="Auto" Padding="0,0,5,0">
+                    <blz:BLZ_ScrollViewer.Content>
+                        <blz:BLZ_TextBlock x:Name="TextBlock_BLZInfoPannelText" Grid.Column="1" Text="{DynamicResource UI_BLZTextBlock_InfoPannelDefault_Text}" HorizontalAlignment="Stretch" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="15" TextWrapping="Wrap" >
+                        </blz:BLZ_TextBlock>
+                    </blz:BLZ_ScrollViewer.Content>
+                </blz:BLZ_ScrollViewer>
+            </Grid>
+        </Canvas>
+        <blz:BLZ_TextBlock x:Name="TextBlock_BLZVersion" Text="{x:Static local:BLZEnforcement_BankEmailTool.SofteareVersion}" Foreground="White" HaloForeground="#FF00FFCC" HaloRadius="10" FontSize="14" Canvas.Left="481" Canvas.Top="776" HorizontalContentAlignment="Right" Width="100"/>
+        <Image x:Name="Image_Light" Width="32" Height="32" Source="{StaticResource IMAGE_SignalLightOff}" SnapsToDevicePixels="True" Canvas.Left="3" Canvas.Top="499"/>
+        <blz:BLZ_ModeSwitch x:Name="ToggleButton_BLZModeSwitch" Canvas.Left="5" Canvas.Top="519" Click="ToggleButton_BLZModeSwitch_Click" MouseEnter="ToggleButton_BLZModeSwitch_MouseEnter" MouseLeave="ToggleButton_BLZModeSwitch_MouseLeave" IsChecked="True"/>
+    </Canvas>
+</Window>

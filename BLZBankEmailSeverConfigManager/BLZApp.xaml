@@ -1,0 +1,13 @@
+﻿<Application x:Class="BLZEnforcementToolset.BLZApp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BLZEnforcementToolset"
+             StartupUri="BLZBankEmailSeverConfigManager.xaml">
+    <Application.Resources>
+        <ResourceDictionary x:Name="ApplicationResource">
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/WH_CommonControlLibrary;component/UIControl/Converter/WH_Converter.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
